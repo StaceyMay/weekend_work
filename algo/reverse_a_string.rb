@@ -3,7 +3,8 @@
 # comes with Ruby!
 
 def reverse_a_string(string)
-
+  a = string.reverse!
+  p a.to_s
 end
 
 # Driver code - don't touch anything below this line.
